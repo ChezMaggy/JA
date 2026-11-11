@@ -900,7 +900,7 @@ const pizzaAmigustoApp = {
         limit: 4,
         selected: [],
         currentSizeName: '',
-        currentPrice: 18.00,
+        currentPrice: 25.00,
         currentImg: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
     },
 
