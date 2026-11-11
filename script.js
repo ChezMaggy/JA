@@ -16,11 +16,9 @@ const ingredientesPizza = [
     { id: 'p-esparrago', name: 'Espárrago', img: 'IM/ING/ESPARRAGO.png' },
     { id: 'p-hotdog', name: 'Hot Dog', img: 'IM/ING/HOT DOG.png' },
     { id: 'p-jamon', name: 'Jamón', img: 'IM/ING/JAMON.png' },
-    { id: 'p-papaya', name: 'Papaya', img: 'IM/ING/PAPAYA.png' },
     { id: 'p-pepperoni', name: 'Pepperoni', img: 'IM/ING/PEPPERONI.png' },
     { id: 'p-pimiento', name: 'Pimiento', img: 'IM/ING/PIMIENTO.png' },
     { id: 'p-pina', name: 'Piña', img: 'IM/ING/PIÑA.png' },
-    { id: 'p-platano', name: 'Plátano', img: 'IM/ING/PLATANO.png' },
     { id: 'p-pollo', name: 'Pollo', img: 'IM/ING/POLLO.png' },
     { id: 'p-salame', name: 'Salame', img: 'IM/ING/SALAME.png' },
     { id: 'p-salchicha', name: 'Salchicha', img: 'IM/ING/SALCHICHA.png' },
@@ -41,15 +39,11 @@ const ingredientesCalzone = [
     { id: 'c-cecina', name: 'Cecina', img: 'IM/ING/CECINA.png' },
     { id: 'c-champinones', name: 'Champiñones', img: 'IM/ING/CHAMPIGÑONES.png' },
     { id: 'c-chorizo', name: 'Chorizo', img: 'IM/ING/CHORIZO.png' },
-    { id: 'c-durazno', name: 'Durazno', img: 'IM/ING/DURAZNO.png' },
     { id: 'c-esparrago', name: 'Espárrago', img: 'IM/ING/ESPARRAGO.png' },
     { id: 'c-hotdog', name: 'Hot Dog', img: 'IM/ING/HOT DOG.png' },
     { id: 'c-jamon', name: 'Jamón', img: 'IM/ING/JAMON.png' },
-    { id: 'c-papaya', name: 'Papaya', img: 'IM/ING/PAPAYA.png' },
     { id: 'c-pepperoni', name: 'Pepperoni', img: 'IM/ING/PEPPERONI.png' },
     { id: 'c-pimiento', name: 'Pimiento', img: 'IM/ING/PIMIENTO.png' },
-    { id: 'c-pina', name: 'Piña', img: 'IM/ING/PIÑA.png' },
-    { id: 'c-platano', name: 'Plátano', img: 'IM/ING/PLATANO.png' },
     { id: 'c-pollo', name: 'Pollo', img: 'IM/ING/POLLO.png' },
     { id: 'c-salame', name: 'Salame', img: 'IM/ING/SALAME.png' },
     { id: 'c-salchicha', name: 'Salchicha', img: 'IM/ING/SALCHICHA.png' },
@@ -2192,7 +2186,7 @@ function confirmRavioles(btn) {
 
     const sauceName = selectedSauce.value;
     const name = `Ravioles (Salsa ${sauceName})`;
-    const price = 27.00;
+    const price = 24.00;
     const img = 'IM/PASTAS/RAVIOLES.png'; // Assuming pasta.png as it was used before in menu.html
     const category = 'Pasta';
 
@@ -2223,7 +2217,7 @@ function confirmFetuccini(btn) {
 
     const sauceName = selectedSauce.value;
     const name = `Fetuccini (Salsa ${sauceName})`;
-    const price = 26.00;
+    const price = 23.00;
     const img = 'IM/pasta.png';
     const category = 'Pasta';
 
@@ -2253,7 +2247,7 @@ function confirmEspaguetis(btn) {
 
     const sauceName = selectedSauce.value;
     const name = `Espaguetis (Salsa ${sauceName})`;
-    const price = 25.00;
+    const price = 22.00;
     const img = 'IM/pasta.png';
     const category = 'Pasta';
 
